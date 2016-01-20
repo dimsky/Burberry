@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB3B2E1D1C4FEAF800FC790B /* Burberry.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = AB3B2E1C1C4FEAF800FC790B /* Burberry.xcscheme */; };
+		AB3B2E1F1C4FEAF800FC790B /* Burberry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B2E1E1C4FEAF800FC790B /* Burberry.swift */; };
+		AB3B2E211C4FEAF800FC790B /* NSObject_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B2E201C4FEAF800FC790B /* NSObject_Extension.swift */; };
+		AB3B2E2C1C4FF81700FC790B /* NSObject+MethodSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3B2E2B1C4FF81700FC790B /* NSObject+MethodSwizzler.m */; };
+		AB3B2E2F1C4FF97400FC790B /* NSObject+Burberry.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3B2E2E1C4FF97400FC790B /* NSObject+Burberry.m */; };
+		AB3B2E311C4FFA2C00FC790B /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B2E301C4FFA2C00FC790B /* ImageStore.swift */; };
+		AB3B2E331C4FFA6C00FC790B /* BurberryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3B2E321C4FFA6C00FC790B /* BurberryImage.swift */; };
+		AB3B2E511C4FFC2000FC790B /* 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB3B2E481C4FFC2000FC790B /* 1.pdf */; };
+		AB3B2E521C4FFC2000FC790B /* 2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB3B2E491C4FFC2000FC790B /* 2.pdf */; };
+		AB3B2E531C4FFC2000FC790B /* 3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB3B2E4A1C4FFC2000FC790B /* 3.pdf */; };
+		AB3B2E541C4FFC2000FC790B /* 4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB3B2E4B1C4FFC2000FC790B /* 4.pdf */; };
+		AB3B2E551C4FFC2000FC790B /* 5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB3B2E4C1C4FFC2000FC790B /* 5.pdf */; };
+		AB3B2E561C4FFC2000FC790B /* 6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB3B2E4D1C4FFC2000FC790B /* 6.pdf */; };
+		AB3B2E571C4FFC2000FC790B /* 7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB3B2E4E1C4FFC2000FC790B /* 7.pdf */; };
+		AB3B2E581C4FFC2000FC790B /* 8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB3B2E4F1C4FFC2000FC790B /* 8.pdf */; };
+		AB3B2E591C4FFC2000FC790B /* 9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB3B2E501C4FFC2000FC790B /* 9.pdf */; };
+		AB3B2E5B1C5000F200FC790B /* failed.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB3B2E5A1C5000F200FC790B /* failed.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB3B2E181C4FEAF800FC790B /* Burberry.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Burberry.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3B2E1C1C4FEAF800FC790B /* Burberry.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Burberry.xcscheme; path = Burberry.xcodeproj/xcshareddata/xcschemes/Burberry.xcscheme; sourceTree = SOURCE_ROOT; };
+		AB3B2E1E1C4FEAF800FC790B /* Burberry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burberry.swift; sourceTree = "<group>"; };
+		AB3B2E201C4FEAF800FC790B /* NSObject_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject_Extension.swift; sourceTree = "<group>"; };
+		AB3B2E221C4FEAF800FC790B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB3B2E291C4FF81700FC790B /* Burberry-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Burberry-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB3B2E2A1C4FF81700FC790B /* NSObject+MethodSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MethodSwizzler.h"; sourceTree = "<group>"; };
+		AB3B2E2B1C4FF81700FC790B /* NSObject+MethodSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MethodSwizzler.m"; sourceTree = "<group>"; };
+		AB3B2E2D1C4FF97400FC790B /* NSObject+Burberry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Burberry.h"; sourceTree = "<group>"; };
+		AB3B2E2E1C4FF97400FC790B /* NSObject+Burberry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Burberry.m"; sourceTree = "<group>"; };
+		AB3B2E301C4FFA2C00FC790B /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		AB3B2E321C4FFA6C00FC790B /* BurberryImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurberryImage.swift; sourceTree = "<group>"; };
+		AB3B2E481C4FFC2000FC790B /* 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 1.pdf; sourceTree = "<group>"; };
+		AB3B2E491C4FFC2000FC790B /* 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 2.pdf; sourceTree = "<group>"; };
+		AB3B2E4A1C4FFC2000FC790B /* 3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 3.pdf; sourceTree = "<group>"; };
+		AB3B2E4B1C4FFC2000FC790B /* 4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 4.pdf; sourceTree = "<group>"; };
+		AB3B2E4C1C4FFC2000FC790B /* 5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 5.pdf; sourceTree = "<group>"; };
+		AB3B2E4D1C4FFC2000FC790B /* 6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 6.pdf; sourceTree = "<group>"; };
+		AB3B2E4E1C4FFC2000FC790B /* 7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 7.pdf; sourceTree = "<group>"; };
+		AB3B2E4F1C4FFC2000FC790B /* 8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 8.pdf; sourceTree = "<group>"; };
+		AB3B2E501C4FFC2000FC790B /* 9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 9.pdf; sourceTree = "<group>"; };
+		AB3B2E5A1C5000F200FC790B /* failed.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = failed.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		AB3B2E101C4FEAF800FC790B = {
+			isa = PBXGroup;
+			children = (
+				AB3B2E1A1C4FEAF800FC790B /* Burberry */,
+				AB3B2E191C4FEAF800FC790B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB3B2E191C4FEAF800FC790B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB3B2E181C4FEAF800FC790B /* Burberry.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB3B2E1A1C4FEAF800FC790B /* Burberry */ = {
+			isa = PBXGroup;
+			children = (
+				AB3B2E471C4FFC2000FC790B /* Images */,
+				AB3B2E2A1C4FF81700FC790B /* NSObject+MethodSwizzler.h */,
+				AB3B2E2B1C4FF81700FC790B /* NSObject+MethodSwizzler.m */,
+				AB3B2E1E1C4FEAF800FC790B /* Burberry.swift */,
+				AB3B2E201C4FEAF800FC790B /* NSObject_Extension.swift */,
+				AB3B2E221C4FEAF800FC790B /* Info.plist */,
+				AB3B2E1B1C4FEAF800FC790B /* Supporting Files */,
+				AB3B2E291C4FF81700FC790B /* Burberry-Bridging-Header.h */,
+				AB3B2E2D1C4FF97400FC790B /* NSObject+Burberry.h */,
+				AB3B2E2E1C4FF97400FC790B /* NSObject+Burberry.m */,
+				AB3B2E301C4FFA2C00FC790B /* ImageStore.swift */,
+				AB3B2E321C4FFA6C00FC790B /* BurberryImage.swift */,
+			);
+			path = Burberry;
+			sourceTree = "<group>";
+		};
+		AB3B2E1B1C4FEAF800FC790B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB3B2E1C1C4FEAF800FC790B /* Burberry.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB3B2E471C4FFC2000FC790B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AB3B2E5A1C5000F200FC790B /* failed.pdf */,
+				AB3B2E481C4FFC2000FC790B /* 1.pdf */,
+				AB3B2E491C4FFC2000FC790B /* 2.pdf */,
+				AB3B2E4A1C4FFC2000FC790B /* 3.pdf */,
+				AB3B2E4B1C4FFC2000FC790B /* 4.pdf */,
+				AB3B2E4C1C4FFC2000FC790B /* 5.pdf */,
+				AB3B2E4D1C4FFC2000FC790B /* 6.pdf */,
+				AB3B2E4E1C4FFC2000FC790B /* 7.pdf */,
+				AB3B2E4F1C4FFC2000FC790B /* 8.pdf */,
+				AB3B2E501C4FFC2000FC790B /* 9.pdf */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB3B2E171C4FEAF800FC790B /* Burberry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3B2E251C4FEAF800FC790B /* Build configuration list for PBXNativeTarget "Burberry" */;
+			buildPhases = (
+				AB3B2E151C4FEAF800FC790B /* Sources */,
+				AB3B2E161C4FEAF800FC790B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Burberry;
+			productName = Burberry;
+			productReference = AB3B2E181C4FEAF800FC790B /* Burberry.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB3B2E111C4FEAF800FC790B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dimsky;
+				TargetAttributes = {
+					AB3B2E171C4FEAF800FC790B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = AB3B2E141C4FEAF800FC790B /* Build configuration list for PBXProject "Burberry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB3B2E101C4FEAF800FC790B;
+			productRefGroup = AB3B2E191C4FEAF800FC790B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB3B2E171C4FEAF800FC790B /* Burberry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB3B2E161C4FEAF800FC790B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3B2E591C4FFC2000FC790B /* 9.pdf in Resources */,
+				AB3B2E551C4FFC2000FC790B /* 5.pdf in Resources */,
+				AB3B2E541C4FFC2000FC790B /* 4.pdf in Resources */,
+				AB3B2E531C4FFC2000FC790B /* 3.pdf in Resources */,
+				AB3B2E521C4FFC2000FC790B /* 2.pdf in Resources */,
+				AB3B2E571C4FFC2000FC790B /* 7.pdf in Resources */,
+				AB3B2E561C4FFC2000FC790B /* 6.pdf in Resources */,
+				AB3B2E581C4FFC2000FC790B /* 8.pdf in Resources */,
+				AB3B2E511C4FFC2000FC790B /* 1.pdf in Resources */,
+				AB3B2E1D1C4FEAF800FC790B /* Burberry.xcscheme in Resources */,
+				AB3B2E5B1C5000F200FC790B /* failed.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB3B2E151C4FEAF800FC790B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3B2E1F1C4FEAF800FC790B /* Burberry.swift in Sources */,
+				AB3B2E2C1C4FF81700FC790B /* NSObject+MethodSwizzler.m in Sources */,
+				AB3B2E331C4FFA6C00FC790B /* BurberryImage.swift in Sources */,
+				AB3B2E2F1C4FF97400FC790B /* NSObject+Burberry.m in Sources */,
+				AB3B2E311C4FFA2C00FC790B /* ImageStore.swift in Sources */,
+				AB3B2E211C4FEAF800FC790B /* NSObject_Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB3B2E231C4FEAF800FC790B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		AB3B2E241C4FEAF800FC790B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		AB3B2E261C4FEAF800FC790B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Burberry/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = "$(DT_TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimsky.Burberry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Burberry/Burberry-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		AB3B2E271C4FEAF800FC790B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Burberry/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = "$(DT_TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimsky.Burberry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Burberry/Burberry-Bridging-Header.h";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB3B2E141C4FEAF800FC790B /* Build configuration list for PBXProject "Burberry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3B2E231C4FEAF800FC790B /* Debug */,
+				AB3B2E241C4FEAF800FC790B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3B2E251C4FEAF800FC790B /* Build configuration list for PBXNativeTarget "Burberry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3B2E261C4FEAF800FC790B /* Debug */,
+				AB3B2E271C4FEAF800FC790B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB3B2E111C4FEAF800FC790B /* Project object */;
+}
