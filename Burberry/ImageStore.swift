@@ -16,18 +16,16 @@ import Cocoa
         "4.pdf",
         "5.pdf",
         "6.pdf",
-        "7.pdf",
-        "8.pdf",
-        "9.pdf",
+        "7.pdf"
     ]
 
     static let messages = [
-        "还是你牛逼",
-        "你最牛逼",
-        "🎐🎵🎸🍺",
+        "Duang",
+        "Duang",
+        "Duang",
         "碉堡了",
         "Awesome",
-        "⛄️❄️",
+        "Duang",
         "Amazing",
         "Nice",
         "Great",

@@ -20,10 +20,8 @@
 		AB3B2E541C4FFC2000FC790B /* 4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB3B2E4B1C4FFC2000FC790B /* 4.pdf */; };
 		AB3B2E551C4FFC2000FC790B /* 5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB3B2E4C1C4FFC2000FC790B /* 5.pdf */; };
 		AB3B2E561C4FFC2000FC790B /* 6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB3B2E4D1C4FFC2000FC790B /* 6.pdf */; };
-		AB3B2E571C4FFC2000FC790B /* 7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB3B2E4E1C4FFC2000FC790B /* 7.pdf */; };
-		AB3B2E581C4FFC2000FC790B /* 8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB3B2E4F1C4FFC2000FC790B /* 8.pdf */; };
-		AB3B2E591C4FFC2000FC790B /* 9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB3B2E501C4FFC2000FC790B /* 9.pdf */; };
 		AB3B2E5B1C5000F200FC790B /* failed.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB3B2E5A1C5000F200FC790B /* failed.pdf */; };
+		AB64785D1C5E302A0073E2E4 /* 7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AB64785C1C5E302A0073E2E4 /* 7.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,10 +43,8 @@
 		AB3B2E4B1C4FFC2000FC790B /* 4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 4.pdf; sourceTree = "<group>"; };
 		AB3B2E4C1C4FFC2000FC790B /* 5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 5.pdf; sourceTree = "<group>"; };
 		AB3B2E4D1C4FFC2000FC790B /* 6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 6.pdf; sourceTree = "<group>"; };
-		AB3B2E4E1C4FFC2000FC790B /* 7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 7.pdf; sourceTree = "<group>"; };
-		AB3B2E4F1C4FFC2000FC790B /* 8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 8.pdf; sourceTree = "<group>"; };
-		AB3B2E501C4FFC2000FC790B /* 9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 9.pdf; sourceTree = "<group>"; };
 		AB3B2E5A1C5000F200FC790B /* failed.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = failed.pdf; sourceTree = "<group>"; };
+		AB64785C1C5E302A0073E2E4 /* 7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 7.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -98,6 +94,7 @@
 		AB3B2E471C4FFC2000FC790B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AB64785C1C5E302A0073E2E4 /* 7.pdf */,
 				AB3B2E5A1C5000F200FC790B /* failed.pdf */,
 				AB3B2E481C4FFC2000FC790B /* 1.pdf */,
 				AB3B2E491C4FFC2000FC790B /* 2.pdf */,
@@ -105,9 +102,6 @@
 				AB3B2E4B1C4FFC2000FC790B /* 4.pdf */,
 				AB3B2E4C1C4FFC2000FC790B /* 5.pdf */,
 				AB3B2E4D1C4FFC2000FC790B /* 6.pdf */,
-				AB3B2E4E1C4FFC2000FC790B /* 7.pdf */,
-				AB3B2E4F1C4FFC2000FC790B /* 8.pdf */,
-				AB3B2E501C4FFC2000FC790B /* 9.pdf */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -168,14 +162,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB3B2E591C4FFC2000FC790B /* 9.pdf in Resources */,
+				AB64785D1C5E302A0073E2E4 /* 7.pdf in Resources */,
 				AB3B2E551C4FFC2000FC790B /* 5.pdf in Resources */,
 				AB3B2E541C4FFC2000FC790B /* 4.pdf in Resources */,
 				AB3B2E531C4FFC2000FC790B /* 3.pdf in Resources */,
 				AB3B2E521C4FFC2000FC790B /* 2.pdf in Resources */,
-				AB3B2E571C4FFC2000FC790B /* 7.pdf in Resources */,
 				AB3B2E561C4FFC2000FC790B /* 6.pdf in Resources */,
-				AB3B2E581C4FFC2000FC790B /* 8.pdf in Resources */,
 				AB3B2E511C4FFC2000FC790B /* 1.pdf in Resources */,
 				AB3B2E1D1C4FEAF800FC790B /* Burberry.xcscheme in Resources */,
 				AB3B2E5B1C5000F200FC790B /* failed.pdf in Resources */,
@@ -332,6 +324,7 @@
 				AB3B2E271C4FEAF800FC790B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
