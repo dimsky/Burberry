@@ -42,7 +42,7 @@
     } else if (icon && [Burberry isEnable] && [message containsString:@"Failed"]) {
         NSImage *image = [bundle imageForResource:@"failed.pdf"];
 
-        [self bur_initWithIcon:image message:@"Son of bitch" parentWindow:parentWindow duration:duration];
+        [self bur_initWithIcon:image message:@"What The Fuck!" parentWindow:parentWindow duration:duration];
 
         if ([self isKindOfClass:[NSPanel class]]) {
             NSPanel *panel = (id)self;

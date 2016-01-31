@@ -13,6 +13,7 @@ class Burberry: NSObject {
 
     var bundle: NSBundle
     lazy var center = NSNotificationCenter.defaultCenter()
+    var notificationSet: NSMutableSet = NSMutableSet();
 
     init(bundle: NSBundle) {
         self.bundle = bundle
@@ -50,7 +51,10 @@ class Burberry: NSObject {
     }
 
     func handlerNotification(notifi: NSNotification) {
-//        NSLog("---> %%", notifi.name)
+        if !self.notificationSet.containsObject(notifi.name) {
+            self.notificationSet.addObject(notifi.name)
+            NSLog("---> %@", notifi.name)
+        }
     }
 
     func createMenuItems() {
