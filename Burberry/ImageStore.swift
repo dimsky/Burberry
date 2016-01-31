@@ -16,7 +16,8 @@ import Cocoa
         "4.pdf",
         "5.pdf",
         "6.pdf",
-        "7.pdf"
+        "7.pdf",
+        "8.pdf"
     ]
 
     static let messages = [
