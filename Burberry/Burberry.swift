@@ -63,7 +63,7 @@ class Burberry: NSObject {
         let item = NSApp.mainMenu!.itemWithTitle("Edit")
         if item != nil {
             let title = Burberry.isEnable() ? "Burberry Default" : "Burberry Custom"
-            let actionMenuItem = NSMenuItem(title:title, action:"doMenuAction:", keyEquivalent:"")
+            let actionMenuItem = NSMenuItem(title:title, action:#selector(Burberry.doMenuAction(_:)), keyEquivalent:"")
             actionMenuItem.target = self
             item!.submenu!.addItem(NSMenuItem.separatorItem())
             item!.submenu!.addItem(actionMenuItem)
